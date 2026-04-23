@@ -15,7 +15,7 @@ We want to add a microchip ID field to pets: stored in the database, visible in 
 ## Step 1 — Create a spec file
 
 Open your project in IntelliJ. Right-click in the **Project** panel where you want your spec to live (e.g. `.specs/`), choose **New → New Spec / Task**, and name it `add-chip-id`.
-![new-spec.png](create-spec.png)
+![new-spec.png](assets/create-spec.png)
 This creates `add-chip-id.md` with a minimal template. Fill in a short draft describing what you want:
 
 ```markdown
@@ -25,7 +25,7 @@ Should appear in the add/edit pet form. Should be searchable from the owners lis
 
 Save the file.
 
-![spec-draft.png](spec-draft.png)
+![spec-draft.png](assets/spec-draft.png)
 
 ---
 
@@ -37,14 +37,14 @@ Claude Code opens in a terminal panel and reads your draft. It explores your pro
 
 When Claude finishes, you would see expanded specification text.
 
-![expanded_spec.png](expanded-spec.png)
+![expanded_spec.png](assets/expanded-spec.png)
 
 The panel shows the spec file. Open it to read what Claude wrote. If something is wrong or missing:
 
 - **Add an inline comment** — select the relevant text in the editor, click comment gutter icon appeared. Type your note and.
 - Click **Refine** in the header. Claude re-reads the spec and your comments and rewrites accordingly.
 
-![img.png](inlay-comment.png)
+![img.png](assets/inlay-comment.png)
 
 ---
 
@@ -65,7 +65,7 @@ Claude reads the specification and produces a numbered plan directly inside the 
 
 When Claude finishes, the Review panel opens again showing the plan.
 
-![plan.png](plan.png)
+![plan.png](assets/plan.png)
 
 Read through the plan. If a step is missing or wrongly scoped:
 
@@ -84,18 +84,18 @@ Claude opens a new terminal session and implements the step — creating or modi
 
 A spinner appears in the Review panel with the step name while Claude is running.
 
-![running-step.png](running-step.png)
+![running-step.png](assets/running-step.png)
 
 When Claude finishes, the step inlay switches to **Review** mode and lists every file it changed.
 
-![step-review.png](step-review.png)
+![step-review.png](assets/step-review.png)
 
 ---
 
 ## Step 5 — Review the diff
 
 Click any file in the list to open a diff view: standard Idea's diff viewer would appear, displaying changes made to the file.
-![file-diff.png](file-diff.png)
+![file-diff.png](assets/file-diff.png)
 You can **edit the file directly** to fix small mistakes without rejecting the whole step.
 
 You can also add inline comments on specific changed lines to explain what needs fixing.
@@ -125,7 +125,7 @@ After accepting the step, the inlay would display `DONE` status with ability to 
 
 Editor header would display overall plan progress.
 
-![img.png](step-complete.png)
+![img.png](assets/step-complete.png)
 
 ---
 
