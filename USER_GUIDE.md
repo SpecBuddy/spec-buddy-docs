@@ -4,7 +4,7 @@
 
 SpecBuddy is an IntelliJ plugin that connects your IDE to Claude Code. You write a brief description of a feature, and SpecBuddy guides you through expanding it into a full specification, generating an implementation plan, and executing that plan step by step — with a review checkpoint after every stage.
 
-**Important: Install Calude plugin to begin working with SpecBuddy:**
+**Important: Install Claude plugin to begin working with SpecBuddy:**
 
 ```shell
 claude plugin marketplace add "git@github.com:SpecBuddy/spec-buddy-skill.git" &&
