@@ -7,7 +7,7 @@ SpecBuddy is an IntelliJ plugin that connects your IDE to Claude Code. You write
 **Important: Install Claude plugin to begin working with SpecBuddy:**
 
 ```shell
-claude plugin marketplace add "git@github.com:SpecBuddy/spec-buddy-skill.git" &&
+claude plugin marketplace add "https://github.com/SpecBuddy/spec-buddy-skill.git" &&
 claude plugin install spec-buddy@spec-buddy-repo
 ```
 
